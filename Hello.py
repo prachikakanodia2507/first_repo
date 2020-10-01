@@ -65,18 +65,4 @@ print('The multiplication of {0} and {1} is {2}'.format(num1, num2, mul))
 # Display the division  
 print('The division of {0} and {1} is {2}'.format(num1, num2, div))  
 
-
-#added a feature
-num = int(input("Enter a number: "))  
-  
-if num > 1:  
-   for i in range(2,num):  
-       if (num % i) == 0:  
-           print(num,"is not a prime number")  
-           print(i,"times",num//i,"is",num)  
-           break  
-   else:  
-       print(num,"is a prime number")  
-         
-else:  
-   print(num,"is not a prime number")
+ 
