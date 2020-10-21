@@ -90,11 +90,24 @@ for i in range(0, len(arr)):
     print(arr[i], end=" ");   
       
 
-      num = float(input("Enter a number: "))
-if num >= 0:
-   if num == 0:
-       print("Zero")
-   else:
-       print("Positive number")
+       # Python program to find the largest number among the three input numbers
+
+# change the values of num1, num2 and num3
+# for a different result
+num1 = 10
+num2 = 14
+num3 = 12
+
+# uncomment following lines to take three numbers from user
+#num1 = float(input("Enter first number: "))
+#num2 = float(input("Enter second number: "))
+#num3 = float(input("Enter third number: "))
+
+if (num1 >= num2) and (num1 >= num3):
+   largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+   largest = num2
 else:
-   print("Negative number")
+   largest = num3
+
+print("The largest number is", largest)
