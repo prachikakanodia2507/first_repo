@@ -87,5 +87,14 @@ print();
     
 print("Elements of array sorted in ascending order: ");    
 for i in range(0, len(arr)):    
-    print(arr[i], end=" ");    
+    print(arr[i], end=" ");   
+      
+
+      num = float(input("Enter a number: "))
+if num > 0:
+   print("Positive number")
+elif num == 0:
+   print("Zero")
+else:
+   print("Negative number")
  
